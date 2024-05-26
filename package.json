@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "REST API wrapper for whatsapp-web.js",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "yarn",
     "start": "node index.js",
@@ -40,9 +43,6 @@
   ],
   "author": "Christophe Hubert",
   "license": "MIT",
-  "engines": {
-    "node": ">=14.17.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chrishubert/whatsapp-web-api.git"
